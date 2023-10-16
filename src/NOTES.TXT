@@ -1,0 +1,46 @@
+
+Arraylist
+
+VS
+
+Traditional Array
+
+
+1.  Size of data 
+    
+    Traditional Array
+
+    Fixed size
+        int[] arr = new int[10];
+
+    ArrayList
+
+    Dynamic
+        size grow - shrink (operations adding, delete)
+    
+    ArrayList<Integer> list = new ArrayList<>();
+
+2. Data type that it can hold
+
+    Traditional Array 
+        int[] intArray = new int[5];
+        String[] stringArray = new String[5];
+
+    ArrayList
+        Wrapped the data type
+
+        ArrayList<Integer> intList = new ArrayList<>();
+        ArrayList<String> stringList = new ArrayList<>();
+
+3.  Flexibility and Methods
+
+    Traditional Array
+        - does not provide built in methods 
+            add, removing
+
+    ArrayList
+        methods 
+                .add()
+                .remove()
+                .size()
+                .contain()
