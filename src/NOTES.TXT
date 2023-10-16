@@ -89,4 +89,17 @@ MENU
 
 5. Exit
 
+-----------------------------------------------------
+
+Arraylist
+LinkedList
+HashSet
+
+1. HashSet -SET family (unique)
+2. Arraylist (duplicates)
+3. Linked List (double linked list)
+
+Insert data
+
+O(1) - hashset
 
