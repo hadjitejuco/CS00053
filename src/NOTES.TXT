@@ -103,3 +103,62 @@ Insert data
 
 O(1) - hashset
 
+
+
+
+MENU
+    1   Add Customer to Queue
+    2.  Serve Next Customer
+    3.  View Next Customer in Line
+    4.  Quit
+
+
+    Adding  
+        Customer name                           
+        Transaction (Deposit/Withdraw)          
+                                                
+        ...add to the queue
+
+    Serve
+
+        Serve Top Value
+
+    View Next
+        View the next customer
+
+        if queue is empty then No customer to serve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
