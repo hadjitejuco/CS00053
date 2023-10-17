@@ -48,5 +48,9 @@ public class Customer {
     public String toString(){
         return "Name "+ name + ", Account Number " + accountNumber + " , Balance "+balance;
     }
+
+    boolean withdraw(double amount) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }

@@ -20,7 +20,7 @@ public class Bank2 {
         while(iterator.hasNext()) {
             Customer2 customer2 = iterator.next();
             if(customer2.getAccountNumber().equals(accountNumber)) {
-                return customer2;
+                return customers2;
             }
         }
         return null;

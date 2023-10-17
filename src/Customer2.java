@@ -1,5 +1,6 @@
 
-
+import java.util.LinkedList;
+import java.util.Iterator;
 //linkedlist implementation
 public class Customer2 {
     private String name;

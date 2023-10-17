@@ -32,7 +32,7 @@ public class BankingApplication2 {
                     System.out.print("Enter deposit amount: ");
                     double amount = scanner.nextDouble();
 
-                    Customer2 customer2 = bank2.findCustomer2(accountNumber);
+                    Customer customer2 = bank2.findCustomer2(accountNumber);
                     if(customer2 != null) {
                         customer2.deposit(amount);
                         System.out.println("Amount deposited successfully!");
@@ -40,6 +40,7 @@ public class BankingApplication2 {
                         System.out.println("Account not found!");
                     }
                     break;
+
 
                 case 3:
                     System.out.print("Enter account number: ");
