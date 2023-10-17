@@ -27,10 +27,10 @@ public class ConcurrentProgramExample {
 
     public static void main(String[] args) {
         // Create a fixed thread pool with 5 threads
-        ExecutorService executor = Executors.newFixedThreadPool(5);
+        ExecutorService executor = Executors.newFixedThreadPool(50);
 
         // Submit 10 tasks to the executor
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 100; i++) {
             executor.submit(new Worker(i));
         }
 
