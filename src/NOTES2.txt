@@ -1,0 +1,38 @@
+
+What is a Thread?
+
+A thread is a lightweight subprocess, the smallest unit of processing. 
+
+Multithreading is a Java feature that allows concurrent execution of two or more threads.
+
+
+Creating Threads
+
+
+There are two ways to create a thread:
+
+By extending the Thread class
+By implementing the Runnable interface
+
+Thread Lifecycle
+
+A thread can be in one of the following states:
+
+New: When a thread is created.
+Runnable: After invoking start(), the thread becomes runnable but may not be running immediately.
+Running: The processor is executing the thread's code.
+Blocked/Sleeping/Waiting: When synchronized blocks are used, or methods like sleep(), wait(), or join() are called.
+Dead: After the run() method completes.
+
+
+Thread Methods
+
+Here are some commonly used methods in the Thread class:
+
+start(): Start the execution of the thread.
+run(): The entry point for the thread; it's where your code goes.
+sleep(long milliseconds): Makes the current thread sleep.
+join(): Waits for a thread to die.
+interrupt(): Interrupts a thread.
+getName(): Returns the thread's name.
+setName(String name): Sets the thread's name.
