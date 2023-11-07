@@ -1,12 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author hadjitejuco
- */
-public class Thread2 {
-    
+
+//implements runnable
+class Thread2 implements Runnable {
+    public void run() {
+        System.out.println("Thread running: " + Thread.currentThread().getName());
+    }
+
+    public static void main(String[] args) {
+        Thread t2 = new Thread(new Thread2());
+        t2.start();
+    }
 }
